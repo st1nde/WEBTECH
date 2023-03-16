@@ -1,0 +1,60 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(177, 177, 176);
+}
+
+fieldset {
+    background-color: rgb(201, 230, 184);
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: black;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+input,
+textarea {
+    border-radius: 3px;
+    border-width: 1px;
+    background-color: rgb(225, 184, 221);
+    border-style: groove;
+}
+
+input:focus {
+    background-color: hotpink;
+}
+
+input[type="file"] {
+    background-color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

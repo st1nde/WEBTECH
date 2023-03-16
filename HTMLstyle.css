@@ -1,0 +1,35 @@
+* {
+    font-family: fantasy;
+}
+
+body {
+    background-color: rgb(192, 191, 189);
+    margin: auto;
+    width: 50%;
+
+
+}
+
+fieldset {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border-style: groove;
+
+}
+
+table {
+    flex-direction: column;
+    border-color: black;
+    border-style: solid;
+    justify-content: space-around;
+
+
+}
+
+ul {
+    border-color: black;
+    border-style: dotted;
+    flex-direction: column;
+
+}
